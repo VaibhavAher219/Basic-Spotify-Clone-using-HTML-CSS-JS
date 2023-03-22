@@ -1,0 +1,83 @@
+body{
+    background-color: antiquewhite;
+}
+*{
+    margin: 0;
+    padding:0;
+}
+
+nav ul{
+    background-color: black;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    list-style-type:none;
+    color: aliceblue;
+
+}
+li{
+    margin-left: 35px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    margin-left: 15px;
+    font-weight: bolder;
+}
+
+#logo1{
+    width:20px;
+   
+    height: 20px;
+}
+.container{
+    min-height: 65vh;
+    background-color: black;
+    color: aliceblue;
+    width: 70vw;
+    margin: 21px auto;
+    border-radius: 14px;
+    padding: 34px;
+    background-image: url(Assets/wp1830716.jpg);
+        
+}
+.musicplayer{
+    height: 110px;
+    position: sticky;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    bottom: 0;
+    flex-direction: column;
+    color: aliceblue;
+}
+#mybar{
+    width: 80vw;
+    cursor: pointer;
+}
+.icons{
+    margin-top: 24px;
+}
+.icons i{
+    cursor: pointer;
+}
+.songitem img{
+    width: 25px;
+    border-radius: 25px;
+}
+
+.songitem{
+    margin-top: 10px;
+    color: black;
+    height: 30px;
+    background-color: aliceblue;
+    border-radius: 12px;
+    width: 25vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.songitem i{
+    cursor: pointer;
+}
